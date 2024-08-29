@@ -1,8 +1,0 @@
-# Ignore specific files
-/hardware-configuration.nix
-/qtile/config.py.save
-
-# Ignore specific folders
-/result/
-/qtile/__pycache__/
-
