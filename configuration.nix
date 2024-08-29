@@ -111,6 +111,7 @@
     settings = {
     corner-radius = 8;
     round-borders = 1;
+    backend = "glx";
   };
       # Include the path to your custom picom config here
       # ${builtins.readFile ./picom/picom.conf}
