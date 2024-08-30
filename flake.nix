@@ -17,7 +17,7 @@
           system = system;
           modules = [
             ./configuration.nix
-            /etc/nixos/hardware-configuration.nix
+            # /etc/nixos/hardware-configuration.nix
             home-manager.nixosModules.home-manager
             {
               home-manager.users.katsu = {
