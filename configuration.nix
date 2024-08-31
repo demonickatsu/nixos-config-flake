@@ -97,8 +97,14 @@
   ];
   services.xserver.enable = true;
   programs.zsh.enable = true;
+    programs.zsh.ohMyZsh = {
+    enable = true;
+    theme = "agnoster";
+    plugins = [ "git" "sudo" "docker" ];
+  };
   users.defaultUserShell=pkgs.zsh; 
   services.xserver.windowManager.qtile.enable = true;
+  programs.rofi.theme = "./rofi/nord.rasi";
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;

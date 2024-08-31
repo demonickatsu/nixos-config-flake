@@ -193,7 +193,7 @@ screens = [
                 # widget.StatusNotifier(),
                 widget.Systray(),
 		# widget.CPU(),
-		widget.Memory(format='{MemUsed: .0f}MB/4000MB'),
+		widget.Memory(format='{MemUsed: .0f}MB'),
 		widget.CheckUpdates(distro='Arch_yay'),
 		widget.Volume(),
 		widget.Clock(format="%Y-%m-%d %a %I:%M %p"),
