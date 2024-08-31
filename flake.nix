@@ -23,6 +23,7 @@
               home-manager.users.katsu = {
                 home.stateVersion = "24.11";
                 home.packages = [ /* list packages here */ ];
+                programs.rofi.theme = "./rofi/nord.rasi";
 
                 # Ensure ~/Backgrounds exists and add image
                 home.file."Backgrounds/nordnix1.png".source = ./assets/nordnix1.png;
