@@ -94,12 +94,16 @@
   pipewire
   pavucontrol
   alsa-utils
+  gcc
+  github-desktop
+  vimPlugins.LazyVim
+  
   ];
   services.xserver.enable = true;
   programs.zsh.enable = true;
     programs.zsh.ohMyZsh = {
     enable = true;
-    theme = "agnoster";
+    theme = "bira";
     plugins = [ "git" "sudo" "docker" ];
   };
   users.defaultUserShell=pkgs.zsh; 
