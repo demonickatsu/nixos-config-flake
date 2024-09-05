@@ -24,7 +24,10 @@
                 home.stateVersion = "24.11";
                 home.packages = [ /* list packages here */ ];
                 programs.rofi.theme = "./rofi/nord.rasi";
-
+                programs.kitty = {
+                  enable = true;
+                  configurationFile = ./kitty/kitty.conf;  # Adjust this path as needed
+                  };
                 # Ensure ~/Backgrounds exists and add image
                 home.file."Backgrounds/nordnix1.png".source = ./assets/nordnix1.png;
 

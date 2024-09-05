@@ -1,2 +1,2 @@
-/result/
-/qtile/__pycache__/
+./result
+./qtile/__pycache__/
